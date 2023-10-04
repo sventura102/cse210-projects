@@ -24,8 +24,4 @@ public class Entry {
         Console.WriteLine($"Date: {_date} - Prompt:");
         Console.WriteLine($"{_entryText}");
     }
-
-    public void SetDate(string date) {
-        _date = date;
-    }
 }
