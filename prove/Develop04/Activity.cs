@@ -21,7 +21,7 @@ public class Activity {
         return message;
     }
 
-    public void ShowSpinner(int seconds){
+    public static void ShowSpinner(int seconds){
     Console.Write("+");
 
     Thread.Sleep(500);
@@ -30,7 +30,7 @@ public class Activity {
     Console.Write("-"); // Replace it with the - character
     }
 
-    public void ShowCountDown(int seconds) {
+    public static void ShowCountDown(int seconds) {
             DateTime startTime = DateTime.Now;
     DateTime futureTime = startTime.AddSeconds(5);
 
